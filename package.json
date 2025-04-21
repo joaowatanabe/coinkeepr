@@ -2,7 +2,7 @@
   "name": "coinkeepr",
   "version": "1.0.0",
   "description": "**CoinKeepr** é uma API RESTful desenvolvida com Node.js, Express e PostgreSQL para controle de finanças pessoais. O projeto permite gerenciar transações financeiras, categorias e oferece um resumo do saldo, facilitando o controle de entradas e saídas.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
