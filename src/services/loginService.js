@@ -7,7 +7,7 @@ const login = async ({ email, password }) => {
     throw { status: 400, message: "Email e senha são obrigatórios." };
   }
 
-  const { row, rowCount } = await pool.query(
+  const { rows, rowCount } = await pool.query(
     "SELECT * FROM users WHERE email = $1",
     [email]
   );
